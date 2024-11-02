@@ -1,0 +1,42 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 110%;
+    background-color: gainsboro;
+    text-align: left;
+    color: cadetblue;
+    line-height: 100%;
+}
+
+header {
+font-size: 110%;
+background-color: cadetblue;
+color:gainsboro;
+text-align: center;
+}
+
+li {
+    display: inline-block;
+    margin-inline: 30px;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 200%;
+    margin-bottom: auto;
+    line-height: 115%;
+    background-color: maroon;
+}
+
+a {
+font-weight: bold;
+color:maroon
+}
+
+main {
+line-height: 140%;
+}
+
+footer {
+font-style: italic;
+margin-top: 50px;
+}
