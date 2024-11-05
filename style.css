@@ -14,10 +14,10 @@ color:gainsboro;
 text-align: center;
 }
 
-/* li {
+li {
     display: inline-block;
     margin-inline: 30px;
-} */
+}
 
 h1 {
     font-family: 'Courier New', Courier, monospace;
@@ -32,10 +32,9 @@ font-weight: bold;
 color:maroon
 }
 
-nav li {
+nav {
     display: inline-block;
     width: 80%;
-    padding: 5px;
     list-style-type: none;
 }
 
