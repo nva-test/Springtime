@@ -14,10 +14,10 @@ color:gainsboro;
 text-align: center;
 }
 
-li {
+/* li {
     display: inline-block;
     margin-inline: 30px;
-}
+} */
 
 h1 {
     font-family: 'Courier New', Courier, monospace;
@@ -32,11 +32,43 @@ font-weight: bold;
 color:maroon
 }
 
+nav li {
+    display: inline-block;
+    width: 80%;
+    padding: 5px;
+    list-style-type: none;
+}
+
+nav img {
+    width: 10%;
+    position: relative;
+    top: 20px;
+}
+
 main {
 line-height: 140%;
 }
 
-footer {
-font-style: italic;
-margin-top: 50px;
+.grid-container{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    gap: 1% 5%;
+    justify-content:center;
+    align-items:center;
 }
+
+.grid-container img{
+    width: 100%;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5%;
+}
+
+footer {
+    font-style: italic;
+    margin-top: 100px;
+    }
